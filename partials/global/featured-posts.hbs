@@ -1,4 +1,4 @@
-{{#get "posts" filter="tag:getting-started" include="tags"}}
+{{#get "posts" filter="featured:true" limit="10" include="tags"}}
     <div class="featured-posts">
         {{#if posts}}
         <article>
